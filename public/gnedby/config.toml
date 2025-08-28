@@ -1,0 +1,58 @@
+[theme]
+primary_color = "#0093D0"
+secondary_color = "#00A78F"
+background_gradient = true
+font_family = "Raleway"
+
+[hero]
+title = "Digitize your physical music collection"
+description = "Gnedby is a simple tool to help you digitize your physical music collection."
+image_url = "/portfolio/gnedby/assets/hero_image.png"
+
+[hero.main_button]
+text = "Star on Github"
+url = "https://github.com/kennycha/gnedby"
+
+[hero.sub_button]
+text = "View on Crates.io"
+url = "https://crates.io/crates/gnedby"
+
+# [how_it_works]
+# title = "How Soft Landing Works"
+# description = "From configuration to launch in minutes. Write your content, customize your design, and get a production-ready landing page with all files included."
+
+# [[how_it_works.steps]]
+# title = "Configure"
+# description = "Write TOML config to define your landing page structure in simple format"
+
+# [[how_it_works.steps]]
+# title = "Preview"
+# description = "See live preview and watch your changes update instantly in real-time"
+
+# [[how_it_works.steps]]
+# title = "Download"
+# description = "Export production-ready HTML/CSS/JS bundle with one click"
+
+# [[how_it_works.steps]]
+# title = "Deploy"
+# description = "Upload to any hosting platform like GitHub Pages, Netlify, or Vercel"
+
+# [features]
+# title = "Best tools for lazy developers"
+# subtitle = "Simple configuration, beautiful results"
+
+# [[features.items]]
+# title = "Easy Configuration"
+# image_url = "/portfolio/soft-landing/assets/feature_item_1_image.png"
+
+# [[features.items]]
+# title = "Real-time Preview"
+# image_url = "/portfolio/soft-landing/assets/feature_item_2_image.png"
+
+# [[features.items]]
+# title = "One-click Export"
+# image_url = "/portfolio/soft-landing/assets/feature_item_3_image.png"
+
+# [[features.items]]
+# title = "Theme Customization"
+# image_url = "/portfolio/soft-landing/assets/feature_item_4_image.png"
