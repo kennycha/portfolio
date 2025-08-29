@@ -17,42 +17,39 @@ url = "https://github.com/kennycha/cursor-chat-keeper"
 text = "View on Marketplace"
 url = "https://marketplace.visualstudio.com/items?itemName=kennycha.cursor-chat-keeper"
 
-# [how_it_works]
-# title = "How Soft Landing Works"
-# description = "From configuration to launch in minutes. Write your content, customize your design, and get a production-ready landing page with all files included."
+[features]
+title = "Essential features for conversation preservation"
+subtitle = "Automatic export, organized formatting, persistent storage"
 
-# [[how_it_works.steps]]
-# title = "Configure"
-# description = "Write TOML config to define your landing page structure in simple format"
+[[features.items]]
+title = "Automatic Chat Export"
 
-# [[how_it_works.steps]]
-# title = "Preview"
-# description = "See live preview and watch your changes update instantly in real-time"
+[[features.items]]
+title = "Markdown Formatting"
 
-# [[how_it_works.steps]]
-# title = "Download"
-# description = "Export production-ready HTML/CSS/JS bundle with one click"
+[[features.items]]
+title = "Context Preservation"
 
-# [[how_it_works.steps]]
-# title = "Deploy"
-# description = "Upload to any hosting platform like GitHub Pages, Netlify, or Vercel"
+[[features.items]]
+title = "Cross-Platform Support"
 
-# [features]
-# title = "Best tools for lazy developers"
-# subtitle = "Simple configuration, beautiful results"
+[how_it_works]
+title = "How Cursor Chat Keeper Works"
+description = "Preserve your valuable AI conversations in Cursor with markdown export. Never lose context or insights from your coding sessions again."
 
-# [[features.items]]
-# title = "Easy Configuration"
-# image_url = "/portfolio/soft-landing/assets/feature_item_1_image.png"
+[[how_it_works.steps]]
+title = "Install Extension"
+description = "Install from Marketplace and activate in Cursor"
 
-# [[features.items]]
-# title = "Real-time Preview"
-# image_url = "/portfolio/soft-landing/assets/feature_item_2_image.png"
+[[how_it_works.steps]]
+title = "Chat Normally"
+description = "Have conversations with AI in Cursor as usual"
 
-# [[features.items]]
-# title = "One-click Export"
-# image_url = "/portfolio/soft-landing/assets/feature_item_3_image.png"
+[[how_it_works.steps]]
+title = "Save with Shortcut"
+description = "Use Ctrl+Alt+C or Command Palette to write chat history to a markdown file"
 
-# [[features.items]]
-# title = "Theme Customization"
-# image_url = "/portfolio/soft-landing/assets/feature_item_4_image.png"
+[[how_it_works.steps]]
+title = "Get Markdown File"
+description = "Receive organized cursor-chat.md with timestamped conversations and context"
+

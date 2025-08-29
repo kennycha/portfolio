@@ -2,11 +2,11 @@
 primary_color = "#FF6C2B"
 secondary_color = "#FFDE00"
 background_gradient = true
-font_family = "Pacifico"
+font_family = "Lato"
 
 [hero]
 title = "Drop ideas, watch them grow"
-description = "Idea note with local llm"
+description = "AI-powered idea development tool"
 image_url = "/portfolio/seednote/assets/hero_image.png"
 
 [hero.main_button]
@@ -17,42 +17,35 @@ url = "https://github.com/kennycha/seednote"
 text = "View Project Live"
 url = "https://kennycha.github.io/seednote/"
 
-# [how_it_works]
-# title = "How Soft Landing Works"
-# description = "From configuration to launch in minutes. Write your content, customize your design, and get a production-ready landing page with all files included."
+[features]
+title = "Powerful features for idea development"
+subtitle = "Local AI processing, privacy-first design, instant results"
 
-# [[how_it_works.steps]]
-# title = "Configure"
-# description = "Write TOML config to define your landing page structure in simple format"
+[[features.items]]
+title = "Local LLM Integration"
 
-# [[how_it_works.steps]]
-# title = "Preview"
-# description = "See live preview and watch your changes update instantly in real-time"
+[[features.items]]
+title = "MoSCoW Analysis"
 
-# [[how_it_works.steps]]
-# title = "Download"
-# description = "Export production-ready HTML/CSS/JS bundle with one click"
+[[features.items]]
+title = "3 Stack Recommendations"
 
-# [[how_it_works.steps]]
-# title = "Deploy"
-# description = "Upload to any hosting platform like GitHub Pages, Netlify, or Vercel"
+[how_it_works]
+title = "How Seednote Works"
+description = "Transform raw ideas into actionable projects with AI-powered technology recommendations."
 
-# [features]
-# title = "Best tools for lazy developers"
-# subtitle = "Simple configuration, beautiful results"
+[[how_it_works.steps]]
+title = "Drop Your Idea"
+description = "Input any project idea or concept you want to explore and develop"
 
-# [[features.items]]
-# title = "Easy Configuration"
-# image_url = "/portfolio/soft-landing/assets/feature_item_1_image.png"
+[[how_it_works.steps]]
+title = "Local AI Processing"
+description = "Your local LLM analyzes the idea while keeping everything private on your machine"
 
-# [[features.items]]
-# title = "Real-time Preview"
-# image_url = "/portfolio/soft-landing/assets/feature_item_2_image.png"
+[[how_it_works.steps]]
+title = "Get Stack Recommendations"
+description = "Receive MoSCoW analysis and 3 different technology stack combinations tailored to your project"
 
-# [[features.items]]
-# title = "One-click Export"
-# image_url = "/portfolio/soft-landing/assets/feature_item_3_image.png"
-
-# [[features.items]]
-# title = "Theme Customization"
-# image_url = "/portfolio/soft-landing/assets/feature_item_4_image.png"
+[[how_it_works.steps]]
+title = "Watch Ideas Grow"
+description = "Store, manage, and iterate on your ideas with structured development paths"

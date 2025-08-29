@@ -13,42 +13,36 @@ image_url = "/portfolio/checka/assets/hero_image.png"
 text = "Star on Github"
 url = "https://github.com/kennycha/checka"
 
-# [how_it_works]
-# title = "How Soft Landing Works"
-# description = "From configuration to launch in minutes. Write your content, customize your design, and get a production-ready landing page with all files included."
+[features]
+title = "Essential features for AI-powered development"
+subtitle = "Real-time monitoring, seamless workflow, never miss a beat"
 
-# [[how_it_works.steps]]
-# title = "Configure"
-# description = "Write TOML config to define your landing page structure in simple format"
+[[features.items]]
+title = "Real-time Agent Monitoring"
 
-# [[how_it_works.steps]]
-# title = "Preview"
-# description = "See live preview and watch your changes update instantly in real-time"
+[[features.items]]
+title = "Color-coded Status Indicators"
 
-# [[how_it_works.steps]]
-# title = "Download"
-# description = "Export production-ready HTML/CSS/JS bundle with one click"
+[[features.items]]
+title = "Menubar Integration"
 
-# [[how_it_works.steps]]
-# title = "Deploy"
-# description = "Upload to any hosting platform like GitHub Pages, Netlify, or Vercel"
 
-# [features]
-# title = "Best tools for lazy developers"
-# subtitle = "Simple configuration, beautiful results"
+[how_it_works]
+title = "How Checka Works"
+description = "Monitor your AI agents in real-time without missing completed tasks. Simple installation, instant visibility, and seamless workflow integration."
 
-# [[features.items]]
-# title = "Easy Configuration"
-# image_url = "/portfolio/soft-landing/assets/feature_item_1_image.png"
+[[how_it_works.steps]]
+title = "Install"
+description = "Build locally or run in development mode on your macOS system"
 
-# [[features.items]]
-# title = "Real-time Preview"
-# image_url = "/portfolio/soft-landing/assets/feature_item_2_image.png"
+[[how_it_works.steps]]
+title = "Launch"
+description = "Run 'checka' command in your project directory to start monitoring"
 
-# [[features.items]]
-# title = "One-click Export"
-# image_url = "/portfolio/soft-landing/assets/feature_item_3_image.png"
+[[how_it_works.steps]]
+title = "Monitor"
+description = "See real-time AI agent status in your menubar with color-coded indicators"
 
-# [[features.items]]
-# title = "Theme Customization"
-# image_url = "/portfolio/soft-landing/assets/feature_item_4_image.png"
+[[how_it_works.steps]]
+title = "Stay Focused"
+description = "Work on other tasks while agents process, never miss completion again"

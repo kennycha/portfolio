@@ -35,16 +35,16 @@ const PROJECTS: {
     configPath: 'portfolio/cursor-chat-keeper/config.toml',
   },
   {
-    id: 'gnedby',
-    name: 'Gnedby',
-    tagline: 'Digitize physical music collection',
-    configPath: 'portfolio/gnedby/config.toml',
-  },
-  {
     id: 'links2video',
     name: 'Links2Video',
     tagline: 'Convert links into a single video',
     configPath: 'portfolio/links2video/config.toml',
+  },
+  {
+    id: 'gnedby',
+    name: 'Gnedby',
+    tagline: 'Digitize physical music collection',
+    configPath: 'portfolio/gnedby/config.toml',
   },
 ];
 
@@ -70,6 +70,7 @@ export const ProjectsPage = () => {
 
         const tomlText = await response.text();
         setTomlContent(tomlText);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       } catch (error) {
         console.warn(`Failed to load config for ${activeProject}:`, error);
         // Fallback to default content

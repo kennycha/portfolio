@@ -13,42 +13,40 @@ image_url = "/portfolio/links2video/assets/hero_image.png"
 text = "Star on Github"
 url = "https://github.com/kennycha/links2video"
 
-# [how_it_works]
-# title = "How Soft Landing Works"
-# description = "From configuration to launch in minutes. Write your content, customize your design, and get a production-ready landing page with all files included."
+[hero.sub_button]
+text = "View Results"
+url = "https://www.youtube.com/@kennycha-d5t"
 
-# [[how_it_works.steps]]
-# title = "Configure"
-# description = "Write TOML config to define your landing page structure in simple format"
+[features]
+title = "Essential features for video creation"
+subtitle = "Automated processing, custom backgrounds, batch support"
 
-# [[how_it_works.steps]]
-# title = "Preview"
-# description = "See live preview and watch your changes update instantly in real-time"
+[[features.items]]
+title = "YouTube Audio Extraction"
 
-# [[how_it_works.steps]]
-# title = "Download"
-# description = "Export production-ready HTML/CSS/JS bundle with one click"
+[[features.items]]
+title = "Audio Merging & Sync"
 
-# [[how_it_works.steps]]
-# title = "Deploy"
-# description = "Upload to any hosting platform like GitHub Pages, Netlify, or Vercel"
+[[features.items]]
+title = "Custom Background Design"
 
-# [features]
-# title = "Best tools for lazy developers"
-# subtitle = "Simple configuration, beautiful results"
+[how_it_works]
+title = "How Links2Video Works"
+description = "Transform multiple YouTube links into a cohesive video experience. Automated audio extraction, merging, and custom background generation in minutes."
 
-# [[features.items]]
-# title = "Easy Configuration"
-# image_url = "/portfolio/soft-landing/assets/feature_item_1_image.png"
+[[how_it_works.steps]]
+title = "Prepare Your Links"
+description = "Create a text file with YouTube URLs, one per line, in the inputs directory"
 
-# [[features.items]]
-# title = "Real-time Preview"
-# image_url = "/portfolio/soft-landing/assets/feature_item_2_image.png"
+[[how_it_works.steps]]
+title = "Customize Background"
+description = "Edit color palette and character overlay to match your creative vision"
 
-# [[features.items]]
-# title = "One-click Export"
-# image_url = "/portfolio/soft-landing/assets/feature_item_3_image.png"
+[[how_it_works.steps]]
+title = "Run CLI Command"
+description = "Execute 'l2v filename.txt' and let automation handle the rest"
 
-# [[features.items]]
-# title = "Theme Customization"
-# image_url = "/portfolio/soft-landing/assets/feature_item_4_image.png"
+[[how_it_works.steps]]
+title = "Get Your Video"
+description = "Receive a single merged video with custom background and combined audio"
+

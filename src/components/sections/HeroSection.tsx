@@ -49,7 +49,7 @@ export function HeroSection({ config }: HeroSectionProps) {
             <img
               src={config.imageUrl}
               alt={config.title ?? 'Hero image'}
-              className="mx-auto h-auto max-w-full rounded-2xl shadow-xl"
+              className="mx-auto h-auto w-full max-w-full rounded-2xl shadow-xl"
             />
           </div>
         )}

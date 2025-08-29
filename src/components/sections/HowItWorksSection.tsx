@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import type { LandingPageConfig } from '@/lib/toml';
 
 interface HowItWorksSectionProps {
@@ -9,6 +9,10 @@ export function HowItWorksSection({ config }: HowItWorksSectionProps) {
   const [currentStep, setCurrentStep] = useState(1);
   const steps = config.steps ?? [];
   const totalSteps = steps.length;
+
+  useEffect(() => {
+    setCurrentStep(1);
+  }, [config]);
 
   return (
     <section className="px-6 py-12 lg:py-20">
