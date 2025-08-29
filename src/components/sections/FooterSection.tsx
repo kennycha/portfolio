@@ -19,7 +19,7 @@ export function FooterSection() {
       <div className="mx-auto max-w-4xl">
         <div className="flex flex-col space-y-8 md:flex-row md:items-start md:justify-between md:space-y-0">
           <div className="flex items-center gap-2">
-            <p className="text-md text-gray-500">@ 2025 Kenny Cha</p>
+            <p className="text-md text-gray-500">@ 2025 Kennycha</p>
           </div>
           <div className="flex gap-x-4 gap-y-2 text-left">
             {LINKS.map((link, index) => (
