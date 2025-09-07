@@ -26,7 +26,6 @@ title = "Color-coded Status Indicators"
 [[features.items]]
 title = "Menubar Integration"
 
-
 [how_it_works]
 title = "How Checka Works"
 description = "Monitor your AI agents in real-time without missing completed tasks. Simple installation, instant visibility, and seamless workflow integration."

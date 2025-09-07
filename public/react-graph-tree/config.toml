@@ -1,0 +1,55 @@
+[theme]
+primary_color = "#3b82f6"
+secondary_color = "#8b5cf6"
+background_gradient = true
+font_family = "JetBrains Mono"
+
+[hero]
+title = "React Graph Tree"
+description = "A visual graph editor React component for building intuitive node-based workflows with drag-and-drop functionality."
+image_url = "/portfolio/react-graph-tree/assets/hero_image.png"
+
+[hero.main_button]
+text = "Star on Github"
+url = "https://github.com/kennycha/react-graph-tree"
+
+[hero.sub_button]
+text = "View on NPM"
+url = "https://www.npmjs.com/package/@kennycha/react-graph-tree"
+
+[features]
+title = "Powerful Visual Graph Editor"
+subtitle = "Build complex workflows with ease"
+
+[[features.items]]
+title = "Drag & Drop Interface"
+
+[[features.items]]
+title = "Customizable Node Types"
+
+[[features.items]]
+title = "External Integration Ready"
+
+[[features.items]]
+title = "Interactive Controls"
+
+[how_it_works]
+title = "How React Graph Tree Works"
+description = "From installation to implementation in minutes. Install the package, configure your node types, and start building visual workflows."
+
+[[how_it_works.steps]]
+title = "Install"
+description = "Add @kennycha/react-graph-tree to your React project via npm or pnpm"
+
+[[how_it_works.steps]]
+title = "Configure"
+description = "Define node types with custom labels, colors, and connection rules"
+
+[[how_it_works.steps]]
+title = "Implement"
+description = "Use GraphEditor component with your configuration in any React app"
+
+[[how_it_works.steps]]
+title = "Customize"
+description = "Handle graph changes and implement custom workflow logic"
+

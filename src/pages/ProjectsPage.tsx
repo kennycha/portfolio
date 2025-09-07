@@ -23,16 +23,22 @@ const PROJECTS: {
     configPath: 'portfolio/checka/config.toml',
   },
   {
-    id: 'seednote',
-    name: 'Seednote',
-    tagline: 'Drop ideas, watch them grow',
-    configPath: 'portfolio/seednote/config.toml',
+    id: 'react-graph-tree',
+    name: 'React Graph Tree',
+    tagline: 'A visual graph editor React component',
+    configPath: 'portfolio/react-graph-tree/config.toml',
   },
   {
     id: 'cursor-chat-keeper',
     name: 'Cursor Chat Keeper',
     tagline: 'Keep your cursor chats',
     configPath: 'portfolio/cursor-chat-keeper/config.toml',
+  },
+  {
+    id: 'seednote',
+    name: 'Seednote',
+    tagline: 'Drop ideas, watch them grow',
+    configPath: 'portfolio/seednote/config.toml',
   },
   {
     id: 'links2video',
